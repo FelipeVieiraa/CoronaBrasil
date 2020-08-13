@@ -1,0 +1,121 @@
+.toolbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  padding-top: 1.1rem;
+  position: fixed;
+  background-color: #FFF;
+  z-index: 1;
+  box-shadow: 0px 0px 20px 0px #d0d0d0;
+}
+
+.toolbar .logo-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.toolbar .logo-content h1 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #193148;
+}
+
+.toolbar .logo-content span {
+  font-size: 16px;
+  letter-spacing: -.63px;
+  color: #333e48;
+}
+
+.toolbar .logo-content img {
+  width: 1.5rem;
+  margin-right: 0.2rem;
+  margin-left: 0.5rem;
+}
+
+.toolbar .buttons-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1.4rem;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.toolbar .buttons-content::-webkit-scrollbar {
+  width: 0px;
+}
+
+.toolbar .buttons-content button:first-child {
+  color: var(--ion-color-label);
+}
+
+.toolbar .buttons-content button {
+  margin-right: 2.6rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: -.3px;
+  color: var(--ion-color-grey);
+  min-width: 100px;
+}
+
+.toolbar .buttons-content button:hover {
+  color: rgba(var(--ion-color-primary-rgb), 0.1);
+}
+
+@media (min-width: 700px) {
+  .toolbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 4rem 2.5rem 4rem;
+    gap: 2rem;
+  }
+
+  .toolbar .buttons-content {
+    margin-top: 0;
+    overflow-x: initial;
+  }
+
+  .toolbar .logo-content h1 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .toolbar .logo-content img {
+    width: 2rem;
+  }
+
+  .toolbar .logo-content span {
+    font-size: 24px;
+  }
+
+  .toolbar .buttons-content button {
+    margin-right: 3rem;
+    font-size: 1.8rem;
+  }
+}
+
+.selected {
+  color: #000;
+}
+
+.selected::after {
+  content: "";
+  width: 40px;
+  height: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #1DA584;
+  position: absolute;
+  bottom: -28px;
+  left: calc(68% - 36px);
+}

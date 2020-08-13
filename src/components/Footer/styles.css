@@ -1,0 +1,205 @@
+.footer-default {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-default .info-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.footer-default .info-title::before {
+  content: "";
+  width: 33.5rem;
+  height: 2px;
+  background: #9fb5c8;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  right: -11.5rem;
+  z-index: -1;
+}
+
+.footer-default .info-title h1 {
+  font-size: 2rem;
+}
+
+.footer-default .info-title span {
+  font-size: 2rem;
+  margin-left: 0.4rem;
+}
+
+.footer-default .content-footer {
+  margin-top: 3rem;
+  background-color: #6a44d7;;
+  padding: 3rem;
+  color: #FFF;
+  border-radius: 8px;
+}
+
+.footer-default .content-footer .info .corona-sus strong {
+  font-size: 1.5rem;
+}
+
+.footer-default .content-footer .info .corona-sus span {
+  font-size: 1.5rem;
+  margin-left: 0.3rem;
+}
+
+.footer-default .content-footer .info h1 {
+  margin-top: 2rem;
+  font-size: 2.7rem;
+  letter-spacing: -2.6px;
+}
+
+.footer-default .content-footer .info p {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  opacity: 0.72;
+  line-height: 22px;
+}
+
+.footer-default .content-footer .info .available-in {
+  margin-top: 3.4rem;
+}
+
+.footer-default .content-footer .info .available-in .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0,0,0,.19);
+  width: 16rem;
+  border-radius: 8px;
+  padding: 0.6rem;
+}
+
+.footer-default .content-footer .info .available-in div + div {
+  margin-top: 2rem;
+}
+
+.footer-default .content-footer .info .available-in div div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem;
+}
+
+.footer-default .content-footer .info .available-in div div span {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.footer-default .content-footer .info .available-in div div strong {
+  font-size: 1.4rem;
+}
+
+.footer-default .content-footer .info .available-in div img {
+  width: 1.8rem;
+  margin-left: 2rem;
+}
+
+.footer-default .content-footer .image-content {
+  margin-top: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 310px;
+}
+
+.footer-default .content-footer .image-content img {
+  position: absolute;
+  top: 0;
+}
+
+@media (min-width: 700px) {
+  .footer-default {
+    width: 95%;
+  }
+  
+  .footer-default .info-title {
+    width: 32rem;
+  }
+  
+  .footer-default .info-title::before {
+    width: 75rem;
+    right: -5rem;
+  }
+  
+  .footer-default .info-title h1 {
+    font-size: 3rem;
+  }
+  
+  .footer-default .info-title span {
+    font-size: 3rem;
+  }
+  
+  .footer-default .content-footer {
+    padding: 0 3.5rem 3rem 3.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .footer-default .content-footer .info .corona-sus strong {
+    font-size: 1.8rem;
+  }
+  
+  .footer-default .content-footer .info .corona-sus span {
+    font-size: 1.8rem;
+  }
+  
+  .footer-default .content-footer .info h1 {
+    font-size: 3.8rem;
+  }
+  
+  .footer-default .content-footer .info p {
+    margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  
+  .footer-default .content-footer .info .available-in {
+    margin-top: 3.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  
+  .footer-default .content-footer .info .available-in .box + .box {
+    margin-top: 0rem;
+  }
+  
+  .footer-default .content-footer .info .available-in div div span {
+    font-size: 1rem;
+  }
+  
+  .footer-default .content-footer .info .available-in div div strong {
+    font-size: 1.69rem;
+  }
+  
+  .footer-default .content-footer .info .available-in div img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .footer-default .content-footer .image-content {
+    margin-top: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-width: 40rem;
+  }
+
+  .footer-default .content-footer .image-content img {
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    width: 50%;
+  }
+}

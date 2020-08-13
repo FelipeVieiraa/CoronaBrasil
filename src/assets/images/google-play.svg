@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="33px" viewBox="0 0 30 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>google-play copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="card-app" transform="translate(-67.000000, -277.000000)" fill-rule="nonzero">
+            <g id="Group-17">
+                <g id="Group-30">
+                    <g id="Group-8" transform="translate(48.000000, 258.000000)">
+                        <g id="google-play-copy" style="mix-blend-mode: luminosity;" transform="translate(19.000000, 19.000000)">
+                            <path d="M29.9574468,16.3404255 C29.9574468,17.3617021 29.3855319,18.2604255 28.5548936,18.7234043 L21.4740426,22.6587234 L15.4825532,16.3404255 L21.4740426,10.0221277 L28.5548936,13.9574468 C29.3855319,14.4204255 29.9574468,15.3191489 29.9574468,16.3404255 Z" id="Path" fill="#BFB3FF"></path>
+                            <path d="M15.4825532,16.3404255 L0.776170213,31.8502128 C0.285957447,31.36 -1.81415167e-15,30.692766 -1.81415167e-15,29.9574468 L-1.81415167e-15,2.72340426 C-1.81415167e-15,1.98808511 0.285957447,1.32085106 0.776170213,0.830638298 L15.4825532,16.3404255 Z" id="Path" fill="#8A73ED"></path>
+                            <path d="M15.4825532,16.3404255 L21.4740426,22.6587234 C3.53634043,32.4970213 2.78468085,33.970383 0.776170213,31.8502128 L15.4825532,16.3404255 Z" id="Path" fill="#9580FA"></path>
+                            <path d="M21.4740426,10.0221277 L15.4825532,16.3404255 L0.776170213,0.830638298 C1.61770213,-0.0585531915 2.96714894,-0.253276596 4.04425532,0.340425532 L21.4740426,10.0221277 Z" id="Path" fill="#A996FF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
